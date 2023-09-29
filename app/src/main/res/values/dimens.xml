@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tekst_margines">16dp</dimen>
+    <dimen name="rozm_czc_pyt">30sp</dimen>
+</resources>
