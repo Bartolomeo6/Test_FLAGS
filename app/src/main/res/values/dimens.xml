@@ -2,4 +2,5 @@
 <resources>
     <dimen name="tekst_margines">16dp</dimen>
     <dimen name="rozm_czc_pyt">30sp</dimen>
+    <dimen name="punkt">40sp</dimen>
 </resources>

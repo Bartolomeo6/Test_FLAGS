@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">FirstApp</string>
     <string name="polecenie">Which color is not on a Polish flag?</string>
+    <string name="komunikat">"Koniec gry, masz flagę RP. Punkty: "</string>
+    <string name="what">WHATCHU DOIN MADAFAKA???</string>
+    <string name="gj">GUT JOB MY NEIGHBOUR!!!</string>
 </resources>
