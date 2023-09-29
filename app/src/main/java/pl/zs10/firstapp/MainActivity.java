@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,9 +16,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void odpowiedzOK(View view) {
-        System.out.println("ok");
+        Toast.makeText(this, "WHATCHU DOIN MADAFAKA???", Toast.LENGTH_SHORT).show();
     }
 
     public void odpowiedzNO(View view) {
+        Toast toast = Toast.makeText(this, "GUT JOB MY NEIGHBOUR!!!", Toast.LENGTH_SHORT);
+        toast.show();
+        //TODO: znikanie
+
+        int idButon = view.getId();
+        Button baton = findViewById(idButon);
+        baton.setVisibility(View.INVISIBLE);
     }
 }

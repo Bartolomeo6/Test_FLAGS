@@ -30,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="@dimen/tekst_margines"
             android:backgroundTint="@color/bioly"
             android:onClick = "odpowiedzOK"
             android:text="Button" />
@@ -39,6 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="@dimen/tekst_margines"
             android:backgroundTint="@color/ziel"
             android:onClick = "odpowiedzNO"
             android:text="Button" />
@@ -48,6 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="@dimen/tekst_margines"
             android:backgroundTint="@color/blue"
             android:onClick = "odpowiedzNO"
             android:text="Button" />
@@ -63,6 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="@dimen/tekst_margines"
             android:backgroundTint="@color/rozofy"
             android:onClick = "odpowiedzNO"
             android:text="Button" />
@@ -72,6 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="@dimen/tekst_margines"
             android:backgroundTint="@color/krem"
             android:onClick = "odpowiedzNO"
             android:text="Button" />
@@ -81,6 +86,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="@dimen/tekst_margines"
             android:backgroundTint="@color/red"
             android:onClick = "odpowiedzOK"
             android:text="Button" />
