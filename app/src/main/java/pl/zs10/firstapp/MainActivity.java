@@ -20,8 +20,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         textViewPolecenie = findViewById(R.id.polecenie_txt);
         textViewPoints = findViewById(R.id.TextViewpunkty);
+
+        button = findViewById(R.id.button);
+        button.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        odpowiedzNO(v);
+                    }
+                }
+        );
     }
 
     public void odpowiedzOK(View view) {
@@ -43,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (liczbaKlik == 4){
 //            Toast.makeText(this, "GAME OVER MY NNNN: "+punkty, Toast.LENGTH_SHORT).show();
+
             String tekst = punkty.toString();
             textViewPolecenie.setText(R.string.komunikat);
             textViewPoints.setText(tekst);
